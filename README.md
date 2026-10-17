@@ -4,20 +4,57 @@ University Division · 1st Runner-up · ZENITH RACING · Macau University of Sci
 
 An archive of our entry in the Inter-School A.I. Formula Edge Competition, Macau 2024: a Jetson Nano racecar, camera-based road following, printable hardware files, and footage from the competition.
 
-本仓库记录 ZENITH RACING 参加 2024 年澳门站 Formula Edge 比赛并获得 JetRacer 大学组亚军的经历，整理了现场影像、硬件打印文件、比赛资料，以及 NVIDIA JetRacer 官方代码的固定版本。
-
-[Race footage](#race-footage) · [Technical workflow](#technical-workflow) · [Getting started](#getting-started) · [Hardware](#hardware-and-3d-printing) · [Repository contents](#repository-contents)
+[Image gallery and race footage](#image-gallery) · [Technical workflow](#technical-workflow) · [Getting started](#getting-started) · [Hardware](#hardware-and-3d-printing) · [Repository contents](#repository-contents)
 
 <table>
   <tr>
-    <td width="50%"><img src="assets/raceday_images/IMG_5831.jpg" alt="JetRacer competition car with Jetson Nano, camera, radio controller, and trophy" width="460"></td>
-    <td width="50%"><img src="assets/raceday_images/IMG_5842.jpg" alt="Formula Edge Macau 2024 university final first runner-up trophy" width="460"></td>
-  </tr>
-  <tr>
-    <td align="center">Competition car and equipment</td>
-    <td align="center">University final · 1st Runner-up</td>
+    <td><img src="assets/raceday_images/race_result.avif" alt="JetRacer university final results listing ZENITH RACING as first runner-up" width="700"></td>
+    <td><img src="assets/raceday_images/IMG_5801.jpg" alt="ZENITH RACING team identification and competition car preparation" width="500"></td>
   </tr>
 </table>
+
+Team name: ZENITH RACING
+
+---
+
+## Image Gallery
+
+### Photos
+
+<table>
+  <tr>
+    <td><img src="assets/raceday_images/IMG_5842.jpg" alt="Formula Edge Macau 2024 university final first runner-up trophy" width="400"></td>
+    <td><img src="assets/raceday_images/IMG_5831.jpg" alt="JetRacer competition car, radio controller, and trophy" width="400"></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><img src="assets/raceday_images/IMG_5815.jpg" alt="Competition-day photograph 5815" width="400"></td>
+    <td><img src="assets/raceday_images/IMG_5816.jpg" alt="Competition-day photograph 5816" width="400"></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><img src="assets/raceday_images/IMG_5803.jpg" alt="Competition-day photograph 5803" width="400"></td>
+    <td><img src="assets/raceday_images/IMG_5832.jpg" alt="Competition-day photograph 5832" width="400"></td>
+  </tr>
+</table>
+
+<img src="assets/raceday_images/IMG_5829.jpg" alt="Additional competition-day photograph 5829" width="400">
+
+### GIFs
+
+<img src="assets/raceday_images/video1.gif" alt="Archived footage from the qualifying session" width="900">
+
+Qualifying session.
+
+<img src="assets/raceday_images/video2.gif" alt="Archived final-round footage showing the car leaving the track" width="900">
+
+An off-track incident in the first round of the final, as identified in the original race report. The archived footage does not establish its technical cause.
+
+---
 
 ## Competition result
 
@@ -26,29 +63,10 @@ An archive of our entry in the Inter-School A.I. Formula Edge Competition, Macau
 | Event | Inter-School A.I. Formula Edge Competition, Macau 2024 |
 | Category | JetRacer · University Division |
 | Team | ZENITH RACING (UR04) |
-| Institution | Macau University of Science and Technology (澳門科技大學) |
+| Institution | Macau University of Science and Technology |
 | Result | 1st Runner-up / Second Place |
 
 The archived [final-results graphic](assets/raceday_images/race_result.avif) lists UR04 ZENITH RACING as the first runner-up. The trophy photograph above provides a second record of the award.
-
-<details>
-<summary>View the final-results graphic</summary>
-
-<img src="assets/raceday_images/race_result.avif" alt="JetRacer university final results listing ZENITH RACING as first runner-up" width="650">
-
-</details>
-
-## Race footage
-
-### Qualifying session
-
-<img src="assets/raceday_images/video1.gif" alt="Archived footage from the qualifying session" width="850">
-
-### First round of the final
-
-<img src="assets/raceday_images/video2.gif" alt="Archived final-round footage showing the car leaving the track" width="850">
-
-The original race report identifies this clip as an off-track incident in the first round of the final. It documents a failure case alongside the successful competition result.
 
 ## Project scope and code provenance
 
@@ -183,27 +201,9 @@ FormulaEdge-Macau-2024/
 ## Reference documents
 
 - [Competition schedule and on-track rules (English)](<docs/competition_rules/Formula Edge Macau 2024 University Schedule and Game Rules.pdf>)
-- [Competition format and rules (Traditional Chinese)](<docs/competition_rules/校際人工智能 Edge 級方程式比賽 - 大灣區 - 澳門站2024 - 大學 - 比賽規則.pdf>)
-- [JetRacer university master-class slides](<docs/competition_rules/澳門JetRacer大學master class 1.pdf>)
+- [Competition format and rules (Traditional Chinese)](<docs/competition_rules/%E6%A0%A1%E9%9A%9B%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%20Edge%20%E7%B4%9A%E6%96%B9%E7%A8%8B%E5%BC%8F%E6%AF%94%E8%B3%BD%20-%20%E5%A4%A7%E7%81%A3%E5%8D%80%20-%20%E6%BE%B3%E9%96%80%E7%AB%992024%20-%20%E5%A4%A7%E5%AD%B8%20-%20%E6%AF%94%E8%B3%BD%E8%A6%8F%E5%89%87.pdf>)
+- [JetRacer university master-class slides](<docs/competition_rules/%E6%BE%B3%E9%96%80JetRacer%E5%A4%A7%E5%AD%B8master%20class%201.pdf>)
 - [NVIDIA JetRacer upstream repository](https://github.com/NVIDIA-AI-IOT/jetracer)
-
-<details>
-<summary>More competition photographs</summary>
-
-<table>
-  <tr>
-    <td><img src="assets/raceday_images/IMG_5815.jpg" alt="Competition-day photograph 5815" width="420"></td>
-    <td><img src="assets/raceday_images/IMG_5816.jpg" alt="Competition-day photograph 5816" width="420"></td>
-  </tr>
-  <tr>
-    <td><img src="assets/raceday_images/IMG_5803.jpg" alt="Competition-day photograph 5803" width="420"></td>
-    <td><img src="assets/raceday_images/IMG_5832.jpg" alt="Competition-day photograph 5832" width="420"></td>
-  </tr>
-</table>
-
-[Team identification and car preparation](assets/raceday_images/IMG_5801.jpg) · [Additional photograph](assets/raceday_images/IMG_5829.jpg)
-
-</details>
 
 ## License and acknowledgments
 
